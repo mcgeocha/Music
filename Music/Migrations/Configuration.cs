@@ -36,7 +36,8 @@ namespace Music.Migrations
 
             context.Artists.AddOrUpdate(
                 a => a.Name,
-                new Artist { Name = "Bee Gees" }
+                new Artist { Name = "Bee Gees" },
+                new Artist { Name = "Coeur de Pirate" }
                 );
         }
     }
